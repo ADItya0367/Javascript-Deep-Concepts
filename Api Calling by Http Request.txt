@@ -1,0 +1,70 @@
+API Calling by XMLHttpRequest 
+
+WHAT WE HAVE TO DO --
+
+- Humsre pas data ka ek link hoga 
+- hume us data ko fetch karna hai 
+- data ko console log karke dekhna hai 
+- then us data ko text format me convert krna hai 
+- then usko ek table me store karna hai 
+
+1. Client ----JSON----> Server-->Database
+
+2. Client <----JSON---- Server
+
+JSON = Javascript Object Notation
+
+JSON (Array of Objects)  ----- jo bhi data aayega wo array of object ke form me aayega 
+
+JSON New
+XML  old
+
+API (Application Programing Interface)-----json format me hoga 
+
+API Tools
+Postman is API Testing Tools (Software) -----hum postman api use karenge testing ke liye
+
+https://jsonplaceholder.typicode.com/
+
+https://jsonplaceholder.typicode.com/photos
+
+https://www.postman.com/downloads/
+
+Request Method
+	1. GET
+	2. POST
+
+XMLHttpRequest Class
+
+https://www.w3schools.com/js/js_ajax_http.asp
+
+
+JSON String --> JSON.parse()  --> JSON Object  (to convert string to object)
+
+JSON Object ---> JSON.stringify()  --->JSON String  (to convert object to string)
+
+
+
+
+
+
+
+
+
+Callback function
+
+Function
+
+Callback Function
+https://www.w3schools.com/js/js_callback.asp
+
+
+API Calling With XMLHttpRequest in JS
+
+
+
+
+
+
+
+Web Scrapping

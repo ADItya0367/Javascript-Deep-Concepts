@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API (Application Programming Interface)</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="spinner-grow text-success d-flex justify-content-center" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Album ID</th>
+                <th scope="col">ID</th>
+                <th scope="col">Titlle</th>
+                <th scope="col">URL</th>
+                <th scope="col">ThumbNailURL</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+
+
+        <script>
+            //https://jsonplaceholder.typicode.com/photos
+
+            //variable = new XMLHttpRequest();
+            
+            //Create a xhr object from the XMLHttpRequest Class
+
+            class MyClass{//Pascal Case
+                //1. Property
+
+                //2. Constructor
+
+                //3.Method
+                getName(name){
+                    console.log('Hello My Name is '+name);
+                }
+                open(method,url){
+
+                }
+
+                send(){
+
+                }
+            }
+
+            //create a new object from the MyClass
+            //syntax
+            // let objectname = new ClassName();
+            let obj = new MyClass();
+
+            //Access the method using . dot operator member selection operator
+
+            obj.getName('Avinash');
+
+
+            //There is a built in class for api calling
+            //XHMLHttpRequest Class
+
+            
+
+            //1. function defination
+            function getMyPhoto(url,method,mycbfn){
+                let xhr = new XMLHttpRequest();
+
+                xhr.open(method,url);
+
+                xhr.send();
+
+                xhr.onload = function(){
+                   // console.log(typeof xhr.responseText);
+                    mycbfn(xhr.responseText);
+                }
+
+                
+            }
+
+
+
+            //2. FUnciton Calling
+            getMyPhoto('https://jsonplaceholder.typicode.com/photos','GET',function(response){
+                
+                document.querySelector('.spinner-grow').remove();
+
+                console.log(typeof response);
+                console.log(response);
+
+                response = JSON.parse(response);//JSON String ---> JSON Object
+
+                console.log(typeof response);
+                console.log(response);
+
+                var tbody = document.querySelector('.table > tbody');
+
+                response.forEach((currentElement,index,arr) => {
+                    console.log(currentElement);
+                    var tr = document.createElement('tr');
+                    var td1 = document.createElement('td');
+                    td1.innerHTML = currentElement.albumId;
+                    var td2 = document.createElement('td');
+                    td2.innerHTML = currentElement.id;
+                    var td3 = document.createElement('td');
+                    td3.innerHTML = currentElement.title;
+                    var td4 = document.createElement('td');
+                    td4.innerHTML = currentElement.url;
+                    var td5 = document.createElement('td');
+                    var img = document.createElement('img');
+                    img.setAttribute("src",currentElement.thumbnailUrl);
+                    td5.appendChild(img);
+
+                    tr.appendChild(td1);
+                    tr.appendChild(td2);
+                    tr.appendChild(td3);
+                    tr.appendChild(td4);
+                    tr.appendChild(td5);
+
+                    tbody.appendChild(tr);
+                });
+
+
+            });
+
+
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

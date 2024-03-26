@@ -1,0 +1,25 @@
+CONCEPT--02
+
+WHERE WE SOULD INCLUDE JAVASCRIPT FILE ??
+ 
+ 1- In the head tag before closing head tag
+ 2- in the body tag before the closing body tag
+ 3 we can also use external javascript file --- and you have to link script file in HTMLand we can do it in three ways 
+     ~ directlyy using an url 
+     ~ specifying the path 
+     ~ just writing the file name 
+
+     Method is same as <script src ="..."></script>
+
+     ** if you are using the external javascript then no need to include the  script tags there !
+
+ External Javascript iS Preferred mainly because of various reasons 
+ -you can reuse the code many times 
+ -Reduces the page loading times
+ - Developers can work on html and js files paralelly 
+
+DISADVANTAGE OF EXTERNAL JAVASCRIPT 
+
+  --- with the file link stealer can download the source code
+  --- is there are two js files then error in one can cause problem in other 
+  --- Browser needs to  make an additional http request to browser  

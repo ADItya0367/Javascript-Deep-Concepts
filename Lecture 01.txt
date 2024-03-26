@@ -1,0 +1,72 @@
+Hi Everyone , 
+so let's Start Javascript in very simple and fast Method . 
+
+CONCEPT ------------------------------------
+
+DEFINITION - Javascript is light weight , object. oriented , multi paradigm scripting lnaguage but sometimes also referred as 
+             programming lnaguage . Javascript is introduced by Brenden Eich in 1995 to add dynamic interactivity to Browsers
+             specially Netscape navigator . Make sure Javascript is not a compiled language  it is a translated language . 
+             Couch Db and Mongo Db Works well with Javascript . 
+
+             THINGS TO NOTICE 
+                        -High Level ~ Js is High level language it means that it is human readable and we don not have to worry about process
+                        or memory management.
+
+                        - Multi Paradigm ~ Means we can use different styles of programming Declerative or imperative 
+
+                        - Scripting Language ~ Are those language in which the source code is first compiled then it is converted into an Executable 
+                        file by Compiler 
+
+
+Features of Javascript ~
+                        - Almost all web browsers supports Javascript as it provides built in execution environments 
+                        - Light Weight 
+                        - Structured Programming Lnaguage as it follows the structure of C language 
+                        - Object oriented
+                        - High Level 
+                        - Multi Paradigm 
+
+History of Javascript 
+                        In 1994 there was a browser named as Mosaic was founded . In 1995 Mark Anderssen founded the 
+                        new browser named as Netscape Navigator . He thought that it should be more dynmic in Nature For 
+                        this purpose he hired Brenden Eich , So all done in 1995 . The first javascript code is called as Mocha 
+                        and earlier it was named as Livescript . 
+
+                        ** Javascript mainly Decides the behaviour of Web page , making it more dynamic 
+
+COMING TO MAIN INTRODUCTION 
+
+                CONCEPT-001-HOW JAVASCRIPT CAN CHANGE HTML CONTENT
+                - it is mainily done with the help of  document.getElementById("Id here").innerHTML="New content"
+                See an example in index.html file                                                 
+   
+
+                1--   /* here taking an div with id =change  */ 
+
+                2--    /* here this function says that search in whoole document and get the element by id ....so we got change as id here 
+             now its saying innerHTML so earlier the content was "This content will bne changed "  , and at last js changes that message  */
+
+                3--    // script tag is always written before the body end and before the head end .
+
+            PROJECT ON THIS ----
+
+            Checkout Github ----    https://github.com/ADItya0367/Javascript-Bulb-on-off-Effect
+
+            PRACTICE EXAMPLES -----
+
+            ~ document.getElementById('demo').innerHTML = 'Hello JavaScript';
+
+            ~ document.getElementById("demo").style.fontSize = "35px";
+              -- changing the font size of text
+            ~ document.getElementById("demo").style.display = "none";
+             --earlier the content is shown by display :block now it will be hidden by clicking on the button 
+
+
+            ~ document.getElementById("demo").style.display = "block";
+             -- here earlier the content will be hidden as you click on the button the content will be shown 
+    
+
+
+    BONUS : Javascript and java are both different , their is nothing to relate .
+          : ECMAscript is the Official name of javascript 
+          
