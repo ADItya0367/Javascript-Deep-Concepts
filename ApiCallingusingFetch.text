@@ -1,0 +1,71 @@
+Api Calling With XMLHttpRequest Class
+Part 2
+
+The Most Important Topic of WebDevelopment
+
+1. User -> ClientArea ----JSON----> Server-->Database
+
+2. User -> ClientArea <----JSON---- Server
+
+JSON = Javascript Object Notation i.e JS Object  {}
+
+JSON (Array of Objects) [{},{},{},{}]
+
+JSON New
+XML  old
+
+API (Application Programing Interface)
+
+API Tools
+Postman is API Testing Tools (Software)
+
+https://jsonplaceholder.typicode.com/
+
+REST (RESPRESTATIONAL STATE TRANSFER) API (Apllication Programing Interface)
+Fake REST API.
+
+https://jsonplaceholder.typicode.com/photos
+
+https://www.postman.com/downloads/
+
+Request Method
+	1. GET
+	2. POST
+
+XMLHttpRequest Class
+
+https://www.w3schools.com/js/js_ajax_http.asp
+
+
+JSON String --> JSON.parse()  --> JSON Object
+
+JSON Object ---> JSON.stringify()  --->JSON String
+
+
+
+
+
+
+
+
+
+Callback function
+
+Function
+
+Callback Function
+https://www.w3schools.com/js/js_callback.asp
+
+
+API Calling With XMLHttpRequest in JS
+
+
+https://jsonplaceholder.typicode.com/todos
+
+In Pure JS,
+There are 2 Techniques available;
+
+1. XMLHttpRequest Class
+
+2. Fetch API
+	https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch

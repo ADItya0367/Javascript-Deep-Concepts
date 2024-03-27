@@ -1,0 +1,134 @@
+Api Calling With XMLHttpRequest Class
+Part 2
+
+The Most Important Topic of WebDevelopment
+
+1. User -> ClientArea ----JSON----> Server-->Database
+
+2. User -> ClientArea <----JSON---- Server
+
+JSON = Javascript Object Notation i.e JS Object  {}
+
+JSON (Array of Objects) [{},{},{},{}]
+
+JSON New
+XML  old
+
+API (Application Programing Interface)
+
+API Tools
+Postman is API Testing Tools (Software)
+
+https://jsonplaceholder.typicode.com/
+
+REST (RESPRESTATIONAL STATE TRANSFER) API (Apllication Programing Interface)
+Fake REST API.
+
+https://jsonplaceholder.typicode.com/photos
+
+https://www.postman.com/downloads/
+
+Request Method
+	1. GET
+	2. POST
+
+XMLHttpRequest Class
+
+https://www.w3schools.com/js/js_ajax_http.asp
+
+
+JSON String --> JSON.parse()  --> JSON Object
+
+JSON Object ---> JSON.stringify()  --->JSON String
+
+
+
+
+
+
+
+
+
+Callback function
+
+Function
+
+Callback Function
+https://www.w3schools.com/js/js_callback.asp
+
+
+API Calling With XMLHttpRequest in JS
+
+
+https://jsonplaceholder.typicode.com/todos
+
+In Pure JS,
+There are 2 Techniques available;
+
+1. XMLHttpRequest Class
+
+2. Fetch API
+	https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+
+
+
+Vi filename
+vi index.html
+
+i
+
+Type anything
+
+esc : w q enter  = save
+
+
+https://fakerestapi.azurewebsites.net/index.html
+
+Swagger is a API Documentation and Testing Tools (Backend Developers )
+Postman is a API Testing Tools
+
+
+FoR API Calling
+
+1. BuiltIN JS Techniques
+	a. XMLHTTPRequest Class
+	b. Fetch API
+
+
+2. ThirdPary Libaries Techniques  cdn link
+	a. JQuery
+	b. Axios 
+
+https://cdnjs.com/libraries/axios
+
+
+https://github.com/axios/axios#axiosgeturl-config
+
+
+axios.get(url[, config])
+
+axios.get('/user/12345')
+  .then(function (response) {
+    console.log(response.data);
+    console.log(response.status);
+    console.log(response.statusText);
+    console.log(response.headers);
+    console.log(response.config);
+  });
+
+
+https://cdnjs.com/libraries/jquery
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+AJAX  ( Asyncronus Javascript and XML )
+
+https://www.w3schools.com/jquERy/jquery_ref_ajax.asp
+
+https://www.w3schools.com/jquERy/ajax_ajax.asp
+
+https://fakerestapi.azurewebsites.net/index.html
+
+$.ajax()

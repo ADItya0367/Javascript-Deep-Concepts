@@ -1,0 +1,23 @@
+
+How to access DOM Elements with Pure JS?
+
+DOM = Document Object Model
+
+1. document.getElementById();
+2. document.querySelector();
+
+
+Can you give your custom attribute
+
+
+Events/Activities/ 
+
+Testing Check if the button is working or not?
+
+With Alert Function
+
+<tag onevent="some javascript code"></tag>
+<tag onevent="alert()"></tag>
+
+
+DRY = Dont Repeat Yourself Principle

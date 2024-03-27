@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./index_Lecture_02.js"></script>
-    
-    <script>
-        document.write("Defining the script tag in head tag.");
-    </script>
-</head>
-<body>
-    <script>
-        document.write("we can define script tag at the body tag also.");
-    </script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        
+        <script>
+            let a = 10;
+            let b = 30;
+
+            console.log(a+b);
+            a = 40;
+            b = 60;
+            console.log(a+b);
+
+            a = 50;
+            b =60;
+            console.log(a+b);
+
+            /*
+                Multi LIne Comment
+                function name(parameter1, parameter2, parameter3) {
+                    // code to be executed
+                }
+                
+            */
+             //1. Function Defination is One Time process
+            function sum(x,y){ // formal Argument/Parameter
+                console.log(x+y);
+            }
+
+            //2. FUnction Calling is a Many Time process
+
+            sum(10,30); //Actual Arguments/Parameters
+            sum(40,60);
+            sum(50,60);
+            sum(10,15);
+
+
+
+        </script>
+    </body>
 </html>

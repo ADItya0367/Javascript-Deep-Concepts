@@ -23,3 +23,54 @@ DISADVANTAGE OF EXTERNAL JAVASCRIPT
   --- with the file link stealer can download the source code
   --- is there are two js files then error in one can cause problem in other 
   --- Browser needs to  make an additional http request to browser  
+
+
+  ECMA = European Computer Manufacturers Association
+
+Interview Question?
+
+What is the official name of Javascirpt
+
+Ans :  ECMAScript = ES
+
+Note:-
+
+Code is executed from Top To Bottom Line by Line
+
+What are functions?
+
+Functions are resusable block of code
+
+We are repeating the code
+
+
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+
+DRY Principle 
+= Dont Repeat Yourself
+
+Assignment
+1. Create a function for subraction,division,multiplication,Addition?
+
+2. Create a function which accept your first and last name
+and give a console log "Hello Anil Dollor How are you"
+
+
+3. Create functions form A to Z?
+ex
+//1. Function Defination is one time process
+
+//camelCase
+function myFunctionA(){
+}
+
+//2 Function Calling is many time process
+
+function myFunctionB(){
+}
+function anilDollor(){
+}
+
+x('Anil',"Dolor")

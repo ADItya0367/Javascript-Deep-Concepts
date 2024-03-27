@@ -70,3 +70,78 @@ COMING TO MAIN INTRODUCTION
     BONUS : Javascript and java are both different , their is nothing to relate .
           : ECMAscript is the Official name of javascript 
           
+
+
+
+How to work in git branch
+
+git branch
+
+
+1. Create the branch
+	
+2. Switch to the branch
+
+
+git checkout -b ＜new-branch＞
+
+master -> newbranch
+
+git checkout -b 1oct2021
+
+document.
+
+. = member selection operator
+
+object.member
+document.getElementByID()
+
+
+Arithmetic operators
++ = addition
+- = substraction
+/
+*
+= Assignment Operator
+
+
+String Value
+"" = Double Qoute
+'' = Single Qoute
+document.getElementById('root').innerHTML = 'Good Morning';
+
+Associativity
+  				     Left = Right
+ 				     Left <- Right
+
+
+If you want to create a variable
+
+var <variable name>;
+var x;
+var y;
+var var;
+
+Variables are stored in Memory (RAM Radom Access Memory)
+
+16 GB - 8 byte x,y (4+4)
+
+WHo is the best Software Engineer?
+The Software Engineer who will utilize the best system resources
+
+
+
+Bodmass Rule Human (General Math) = Prescedence of Operator (Computer)
+
+ z = x + y; //Expression(Programming) = Equation(Math)
+
+x and y are operands
+
+operand + operands
+
++ having higer priority (Prescedence)
+=  have log priority
+
+
+Tell me how many operator you can see?
+2 Operator = +

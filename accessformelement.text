@@ -1,0 +1,50 @@
+Core Javascript
+
+React JS Framework
+Angular JS
+ViewJS
+
+How to access Form element with Javascript
+
+FORM 
+DOM = Document Object Model
+
+
+vi index.html
+
+OPen Vi Editor Edvanced Editor/Linux Sys Admin
+
+I = INsert Mode
+
+Esc : w q   (Save and Quit)
+
+
+
+
+ONEVENT = Event Handler
+
+onsubmit Event Handler 
+Form Ki Submit event ko handle karega
+
+<element onsubmit="some js code">
+
+
+There are 2 ways to access the dom element
+
+document.getElementById();
+document.querySelector()
+
+Nandan Question is 
+
+How we can store these values/Data somewhere in our browser.?
+Local Storage
+
+HTML Web Storage API
+
+Assignments
+
+write a JS program to calculate area of triangle?
+write a program to calculate simple interest
+write a program to calculate area of circle
+write a program to calculate volume of sphere
+write a program to calculate volume of cylinder
